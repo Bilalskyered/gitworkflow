@@ -10,7 +10,7 @@ jobs:
       - name: First Step
         env:
           NAME: "Bilal"     
-        run: /
+        run: |
           echo "Hello world!"
           echo ${{ env.NAME }}
                 
